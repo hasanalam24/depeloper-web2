@@ -1,0 +1,217 @@
+header {
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+
+
+}
+
+.header {
+    padding: 0px 130px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>h2 {
+    font-size: 30px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul>li {
+    display: flex;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 25px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner {
+    /* padding: 30px 30px 0px 150px; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+/* About ME */
+
+.about-section {
+    background-color: #FFF8F3;
+    margin-top: 80px;
+    text-align: center;
+
+    padding: 80px;
+
+
+}
+
+
+
+
+.about {
+    text-align: justify;
+}
+
+.info-title-2 {
+    color: #474747;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-title {
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.info-descrioption {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+
+/* What I Do */
+
+.main-do {}
+
+.what-do {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.skill {
+
+
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+
+
+}
+
+
+/* <!-- Education-Experience --> */
+
+.resume-head {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.edu-experience {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.resume-title {
+    color: #474747;
+    margin-bottom: 0;
+    margin-top: -10px;
+
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Footer From  */
+
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 90px;
+    padding: 60px 100px;
+
+
+}
+
+.footer {
+    width: 50%;
+    margin-right: 60px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    color: #757575;
+    border: 0;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 80%;
+}
