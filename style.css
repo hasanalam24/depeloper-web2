@@ -203,6 +203,10 @@ footer {
     margin-right: 60px;
 }
 
+.social-link {
+    margin-right: 25px;
+}
+
 .contact input[type="text"],
 .contact input[type="email"],
 textarea {
